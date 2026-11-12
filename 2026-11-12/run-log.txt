@@ -1,0 +1,11 @@
+2026-11-12 run log (Task A) — built 2026-11-12 ~02:30 UTC
+STEP 0  OK  git push --dry-run origin HEAD:main -> "Everything up-to-date" in ftm-media and ftm-studio
+STEP 1  OK  4 news posts: NY Fed Q3 2026 household debt (Nov 10); NY Fed Q3 credit cards (Nov 10); EIA gasoline week of Nov 9 (Nov 10); CNBC/NRF Retail Monitor Oct 2026 (Nov 11). 6 evergreen.
+STEP 1  NOTE  WebFetch blocked for cnbc.com, newyorkfed.org, eia.gov, nrf.com — figures confirmed via search results restricted to those domains.
+STEP 2  OK  new-day + build-day: 10 cards, no clipping. Warning: stats 3x (03,05,09). Swapped versus A/B on 02 and 06 so the highlighted box is the better outcome.
+STEP 3  OK  publish-media pushed images (commit f10727f). Pages verify FAILED from this session: abhiyan-strugller.github.io blocked by egress proxy (connect_rejected). Raw blobs sha256-match local PNGs for all 10.
+STEP 3  OK  publish-sheet: sha256 verified against served bytes on raw.githubusercontent.com
+STEP 4  handoff below
+SHEET_URL https://raw.githubusercontent.com/abhiyan-strugller/ftm-media/main/sheets/2026-11-12-e3866094f8.csv
+SHEET_SHA256 e3866094f8103c5704cfcf88f7a49e0de910f101c2983521d8f8589b9bffdd7a
+POST_COUNT 10
