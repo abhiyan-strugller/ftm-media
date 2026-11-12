@@ -1,0 +1,12 @@
+2026-11-13 run log (Task A) — built 2026-11-12 ~11:30 UTC
+STEP 0  OK  git push --dry-run origin HEAD:main -> "Everything up-to-date" in ftm-media and ftm-studio
+STEP 1  OK  3 news posts: Nvidia CEO turmoil / index funds (Bloomberg, CNBC, AP, Nov 11); DOL proposed 5-a-week UI work-search rule (DOL Nov 9, Fed Register Nov 10); BLS long-term unemployment Oct 2026 (released Nov 6). 7 evergreen.
+STEP 1  NOTE  Only 3 news posts: no other fresh release in last 24h with a reliable-sourced figure (claims, Freddie Mac due later Nov 12; CPI/jobs/debt/gas already ran). Nvidia figures are Wed Nov 11 after-hours; may be stale by Fri if board decides.
+STEP 1  NOTE  WebFetch/curl blocked for cnbc.com, abcnews.com, bls.gov, fdic.gov, apnews.com, reuters.com — figures confirmed via search results restricted to those domains.
+STEP 2  OK  new-day + build-day: 10 cards. First build rejected 08 ($7,500/$4,400 too wide) -> shortened to $7.5k/$4.4k, exact figures in footnote. Warning: headline 3x (02,06,10), non-adjacent. Cards visually checked.
+STEP 3  OK  publish-media pushed images (commit 440f7b3). Pages verify FAILED from this session: github.io blocked by egress proxy. Raw blobs sha256-match local PNGs for all 10.
+STEP 3  OK  publish-sheet: sha256 verified against served bytes on raw.githubusercontent.com
+STEP 4  handoff below
+SHEET_URL https://raw.githubusercontent.com/abhiyan-strugller/ftm-media/main/sheets/2026-11-13-3bc2e58ab8.csv
+SHEET_SHA256 3bc2e58ab8f23294ac731fe2f456f13d4051335b0201c3aa3c46efceb676907f
+POST_COUNT 10
