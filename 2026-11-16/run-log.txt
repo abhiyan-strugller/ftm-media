@@ -1,0 +1,19 @@
+2026-11-16 run log (Task A) — built Sun 2026-11-15 ~20:50-21:10 Edmonton (2026-11-16 ~02:50-03:10 UTC)
+STEP 0  OK  already-built check: raw .../main/2026-11-16/run-log.txt -> 404 (not built). Proceeding.
+STEP 0  OK  git push --dry-run origin HEAD:main -> "Everything up-to-date" (exit 0) in ftm-media and ftm-studio
+STEP 1  OK  deep sweep ~90 candidates (research/2026-11-16-sweep.md in ftm-studio). 7 news + 3 evergreen.
+STEP 1  NOTE  WebFetch/curl blocked (DNS) for cnbc.com, faa.gov, bls.gov, federalreserve.gov, sec.gov, AAA, CoinGecko, Reuters, AP, Kalshi. All figures confirmed via multiple independent search results citing the same release/report; single-outlet items attributed by name (CNBC for Foundation; ProPublica for Gates; Forbes for $18/mo).
+STEP 1  NOTE  News: Nvidia -$1.7T since early Oct (CNBC Nov 13) + earnings Tue; FAA 12,462 cancellations Nov 13 + DOT refund rule; Foundation missed Oct 30 payroll / CEO $4.6M loan (CNBC Nov 14); Gates $2.6B Republic dividends since 1999 (ProPublica); Anthropic IPO up to 20% retail, up to $64.4B (S-1/A, CNBC Nov 10); Lutnick + Huang agree to testify (CNBC/NBC Nov 13, CBS Nov 15); BLS electricity +0.9% Oct, +4.4% 12mo to Sept. Evergreen: Rule of 72, free credit freeze, overdraft opt-in.
+STEP 2  OK  npm ci; new-day --start 111601; 10 plain cards, night/cream alternating, 11:00-22:00 Edmonton.
+STEP 2.5  OK  Monday = reel day. 3 existing docs used: fed-decides-blind (unchanged, narrated), nvidia-money-trail (refreshed hook to $1.7T since early Oct per CNBC; testimony + earnings beats), anthropic-ipo (removed "biggest IPO in history" — $64.4B top of range is below SpaceX's June $75B). 1 new: flight-refund.
+STEP 2.5  FIX  first render failed: python numpy missing for scripts/gen-reel-bed.py -> pip installed numpy, re-rendered all 4.
+STEP 2.5  OK  ffprobe: fed-decides-blind v22.67/a22.74 (22.74s); nvidia-money-trail v23.63/a23.63; flight-refund v23.63/a23.63; anthropic-ipo v20.37/a20.36. All within 0.5s, all 15-45s. PASS.
+STEP 2.5  OK  reels at 10:15, 12:45, 16:45, 20:30 Edmonton (16:15Z, 18:45Z, 22:45Z, 02:30Z+1).
+STEP 3  OK  build-day: 10 cards + 4 reels = 14 rows. No overflow rejections. Mix warnings only (plain 10x — expected, plain is the house look). Cards 01-10 all visually checked; 02 and 09 edited (dedupe figure; Forbes date on card) and re-checked.
+STEP 3  FIX  src/lib/csv.ts composeFirstComment: reel first comments read "Source: Sources: ..." -> regex now strips "Sources:" too. vitest: 252 pass / 6 fail — the 6 failures are pre-existing (identical without the fix): tests/csv.test.ts still expects the old UTC-7 Mountain offset that CLAUDE.md says is wrong. Conversion untouched.
+STEP 3  OK  publish-media pushed 10 PNG + 4 MP4 (commit 95781a3). Pages verify FAILED from this session: github.io blocked by egress proxy ("fetch failed"), as on previous runs. Raw blobs sha256-match local files for all 14.
+STEP 3  OK  publish-sheet: 14 rows, sha256 verified against served bytes on raw.githubusercontent.com; past-row guard passed (first row 10:15 Edmonton Nov 16).
+STEP 4  handoff below — Task B: upload this sheet on the morning of 2026-11-16, then read the queue back (14 posts: 10 cards + 4 reels).
+SHEET_URL https://raw.githubusercontent.com/abhiyan-strugller/ftm-media/main/sheets/2026-11-16-4a09b2e00f.csv
+SHEET_SHA256 4a09b2e00f10f830fad89434c7b788cca1bc57f026e5329dfe3ca074e22b0a5b
+POST_COUNT 14 (10 cards + 4 reels)
