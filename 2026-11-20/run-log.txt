@@ -1,0 +1,1 @@
+CYCLE 08:00 SHEET_URL https://raw.githubusercontent.com/abhiyan-strugller/ftm-media/main/sheets/2026-11-20-ed4883a68d.csv  SHA256 ed4883a68d9ba63f448d52a18ac5c21205023c3e4baec4765f6f42b38801e1fa  1card+1reel
