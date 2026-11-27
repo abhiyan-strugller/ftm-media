@@ -3,3 +3,4 @@ CYCLE 10:00 SHEET_URL https://raw.githubusercontent.com/abhiyan-strugller/ftm-me
 CYCLE 12:00 SHEET_URL https://raw.githubusercontent.com/abhiyan-strugller/ftm-media/main/sheets/2026-11-26-99a21c6439.csv  SHA256 99a21c6439726a2b58992e7008ec6d3d02ceec7ff49860d3df6b192833e9e21a  1reel
 CYCLE 14:00 SHEET_URL https://raw.githubusercontent.com/abhiyan-strugller/ftm-media/main/sheets/2026-11-26-48210035f7.csv  SHA256 48210035f75b271ab90aee2d25603326467e3bf0742105167b0310037f8d460b  1card+1reel
 CYCLE 17:00 SHEET_URL https://raw.githubusercontent.com/abhiyan-strugller/ftm-media/main/sheets/2026-11-26-f4f177f515.csv  SHA256 f4f177f515ee59d76f2b8f7df02dac257ca8ab60c50a08df164194d7c554c837  1reel
+CYCLE 20:00 SHEET_URL https://raw.githubusercontent.com/abhiyan-strugller/ftm-media/main/sheets/2026-11-26-81b47a4fe6.csv  SHA256 81b47a4fe6036abcdcf1472fc4e601ba320f4a88dd7f921be8047cdf780e17a9  1card+1reel
